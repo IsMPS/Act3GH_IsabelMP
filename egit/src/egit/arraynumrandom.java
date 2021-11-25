@@ -7,7 +7,7 @@ public class arraynumrandom {
 //		int arraycont[] = new int[10];
 		for (int i = 0; i < array.length; i++) {
 			array[i] = (int) (Math.random() * 10 + 1);
-//			System.out.print("\t" + array[i]);
+			System.out.print("\t" + array[i]);
 //			arraycont[array[i]-1]=arraycont[0]+1;
 		}
 //		for (int i = 0; i < arraycont.length; i++) {
