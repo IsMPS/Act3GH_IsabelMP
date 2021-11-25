@@ -10,8 +10,8 @@ public class arraynumrandom {
 			System.out.print("\t" + array[i]);
 			arraycont[array[i]-1]=arraycont[0]+1;
 		}
-		for (int i = 0; i < arraycont.length; i++) {
-			System.out.print("\n"+(i+1)+": "+arraycont[i]);
+		for (int i = 1; i <= arraycont.length; i++) {
+			System.out.print("\n"+(i)+": "+arraycont[i-1]);
 		}
 	}
 }
